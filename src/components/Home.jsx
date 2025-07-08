@@ -1,12 +1,7 @@
 import React from "react";
-
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaLinkedin, FaReact, FaJava } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaReact, FaJava } from "react-icons/fa";
 import { SiMysql, SiSpring } from "react-icons/si";
 import pic from "../assets/ashish.jpg";
-
 import { ReactTyped } from "react-typed";
 
 function Home() {
@@ -43,42 +38,26 @@ function Home() {
             {/* Social Media & Tech Stack */}
             <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
               {/* Social Media */}
-              <div className="space-y-2">
-                <h1 className="font-semibold text-lg">Connect With Me</h1>
-                <ul className="flex space-x-5">
-                  <li>
-                    <a
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FaFacebookSquare className="text-3xl hover:text-blue-500 transition duration-300" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/rajput-ashish-880162369"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FaLinkedin className="text-3xl hover:text-blue-600 transition duration-300" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <IoLogoYoutube className="text-3xl hover:text-red-600 transition duration-300" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://t.me/" target="_blank" rel="noreferrer">
-                      <FaTelegramPlane className="text-3xl hover:text-sky-500 transition duration-300" />
-                    </a>
-                  </li>
-                </ul>
+              <div className="space-y-4">
+                <h1 className="font-semibold text-lg text-center md:text-left">
+                  Connect With Me
+                </h1>
+                <div className="flex justify-center md:justify-start space-x-5">
+                  <a
+                    href="https://github.com/AshishRajput18"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithub className="text-3xl hover:text-gray-300 transition duration-300" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/rajput-ashish-880162369"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaLinkedin className="text-3xl hover:text-blue-600 transition duration-300" />
+                  </a>
+                </div>
               </div>
 
               {/* Tech Stack */}
