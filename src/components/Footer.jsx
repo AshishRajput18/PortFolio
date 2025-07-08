@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -15,25 +10,25 @@ function Footer() {
             {/* Social Icons */}
             <div className="flex space-x-6 mb-6">
               <a
-                href="https://facebook.com"
+                href="https://github.com/AshishRajput18"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="hover:text-blue-500 transition-all duration-300 hover:scale-125"
+                aria-label="GitHub"
+                className="hover:text-gray-300 transition-all duration-300 hover:scale-125"
               >
-                <FaFacebook size={26} />
+                <FaGithub size={26} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.linkedin.com/in/rajput-ashish-880162369"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Twitter"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-125"
+                aria-label="LinkedIn"
+                className="hover:text-blue-400 transition-all duration-300 hover:scale-125"
               >
-                <FaTwitter size={26} />
+                <FaLinkedinIn size={26} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/invites/contact/?igsh=5kenyz58mscu&utm_content=ocux68g"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -42,22 +37,22 @@ function Footer() {
                 <FaInstagram size={26} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://t.ly/psiYO"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
-                className="hover:text-blue-400 transition-all duration-300 hover:scale-125"
+                aria-label="WhatsApp"
+                className="hover:text-green-400 transition-all duration-300 hover:scale-125"
               >
-                <FaLinkedinIn size={26} />
+                <FaWhatsapp size={26} />
               </a>
             </div>
 
             {/* Footer Text */}
             <div className="border-t border-gray-600 pt-4">
               <p className="text-sm md:text-base">
-                © {new Date().getFullYear()} <span className="font-semibold text-red-400">Ashish Rajput</span>. All rights reserved.
+                © {new Date().getFullYear()}{" "}
+                <span className="font-semibold text-red-400">Ashish Rajput</span>. All rights reserved.
               </p>
-             
             </div>
           </div>
         </div>
